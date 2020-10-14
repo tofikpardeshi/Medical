@@ -1,0 +1,56 @@
+== Change log ==
+
+= 3.0.0 - July 29 2020 =
+* Added   : Advanced Demo Import
+* Removed : Acme Demo Setup Plugin from TGM
+* Updated : Getting Started experience
+* Fixed   : Breadcrumbs error on google console, $item,$attributes,$meta updates inside function trail
+* Updated : Keyboard navigation
+* Updated : Style.css header
+* Updated : New Theme Check Info
+* Fixed : Customizer Repeater
+
+= 2.0.1 - Oct 14 2019 =
+* Added : wp_body_open hook in header
+* Added : Gutentor Plugin in TGM
+* Added : wpml-config.xml file for language translation
+* Fixed : Screen Reader Text
+
+= 2.0.0 - March 24 2019 =
+* Added : Both and Middle Column Sidebar layout
+* Added : Gutenberg Ready
+* Added : WooCommerce Sidebar Options
+* Added : wpml-config.xml
+* Update : RTL CSS
+* Fixed : count function issue
+* Fixed : Slider Button Text Translation issue
+* Fixed : Space before DOCTYPE
+* Fixed : Other Minor Issues
+
+= 1.0.6 =
+* Added   :  Enable/Disable Theme Name And Powered By Text
+
+= 1.0.5 =
+* Fixed   : AT Gallery Section Column Number
+
+= 1.0.4 =
+* Updated : Language Files
+* Fixed   : Text domain
+
+= 1.0.3 =
+* Updated : Breadcrumb Trail and TGM
+* Fixed   : Minor issues
+
+= 1.0.2 =
+* Fixed : Edit Link
+
+= 1.0.1 =
+* Fixed : Escaping issues
+
+= 1.0.0 =
+* Added : Background Options on Widget
+* Updated : Screenshot
+* Updated : Other Minor changes
+
+= 0.0.1 - August 08 2017 =
+* Submitted to WordPress.org

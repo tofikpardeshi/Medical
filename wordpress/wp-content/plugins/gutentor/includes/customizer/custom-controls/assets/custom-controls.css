@@ -1,0 +1,246 @@
+#sub-accordion-section-gutentor-theme-categories-options .customize-control-group,
+#sub-accordion-section-gutentor-theme-post-format-options .customize-control-group{
+  margin-bottom: 0px;
+}
+.customize-control .gutentor-group-field-control-wrap .accordion-section-title {
+  border-left: medium none !important; 
+}
+.gutentor-group-field-control-wrap .expanded .accordion-section-title {
+  background: #fafafa !important;
+}
+.gutentor-group-field-control-wrap .customize-control-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.gutentor-group-field-control-wrap .accordion-section-title:after {
+  content: "\f347" !important;
+}
+.gutentor-group-field-control-wrap .expanded .accordion-section-title:after {
+  content: "\f343" !important;
+}
+.gutentor-group-field-control-wrap .group-fields {
+  background: #fff;
+  padding: 5px 15px 15px 15px;
+}
+.gutentor-group-field-control-wrap .group-fields .image-properties-checkbox {
+  margin-top: 15px;
+}
+.gutentor-group-field-control-wrap .group-fields .image-properties-checkbox .customize-control-title.checkbox {
+  display: inline;
+}
+
+.gutentor-group-field-control-wrap .repeater-field-remove,
+.gutentor-group-field-control-wrap .group-field-close,
+.gutentor-group-field-control-wrap .repeater-field-close {
+  text-decoration: none;
+  padding: 4px 8px;
+  color: #fff;
+  margin-top: 10px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.gutentor-group-field-control-wrap .group-field-close,
+.gutentor-group-field-control-wrap .repeater-field-close {
+  background: #275cf6;
+}
+.gutentor-group-field-control-wrap .group-field-close:hover, 
+.gutentor-group-field-control-wrap .group-field-close:focus,
+.gutentor-group-field-control-wrap .repeater-field-close:hover,
+.gutentor-group-field-control-wrap .repeater-field-close:focus {
+  background: #0940e1;
+  color: #fff;
+}
+
+.gutentor-group-field-control-wrap .repeater-field-remove {
+  background: red;
+}
+.gutentor-group-field-control-wrap .repeater-field-remove:hover, 
+.gutentor-group-field-control-wrap .repeater-field-remove:focus {
+  background: #cc0000;
+  color: #fff;
+}
+
+/* Color Picker Css */
+.gutentor-group-field-control-wrap .wp-color-result-text {
+  line-height: 31px !important;
+}
+
+.gutentor-group-field-control-wrap .wp-picker-container .wp-color-result.button {
+  height: 33px !important;
+}
+.gutentor-group-field-control-wrap .wp-picker-container .wp-picker-input-wrap input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
+  height: 33px !important;
+}
+
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container {
+  display: block;
+  position: relative;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container input[type="text"].wp-color-picker {
+  width: 100%;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-picker-input-wrap {
+  position: absolute;
+  right: -5px;
+  width: calc(100% - 110px);
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-picker-input-wrap label {
+  width: calc(100% - 45px - 5px);
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-picker-input-wrap .button {
+  margin-left: 0;
+  float: right;
+  width: 45px;
+}
+@media (max-width: 767px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-picker-input-wrap .button {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .hidden {
+  display: inline-block;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-color-result.button {
+  width: 110px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+@media (max-width: 767px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-color-result.button {
+    font-size: 11px;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-color-result .wp-color-result-text {
+    padding: 0 5px;
+  }
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker {
+  margin-top: 20px;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker .iris-square {
+  margin-right: 6px;
+}
+@media (min-width: 768px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker {
+    max-width: 224px;
+    overflow: hidden;
+  }
+}
+.customize-control-alpha-color .wp-picker-container .iris-picker .iris-slider.iris-strip {
+  max-width: 15px;
+  margin-right: 0;
+}
+@media (min-width: 1500px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker {
+    max-width: 100%;
+  }
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker .iris-square {
+    margin-right: 10%;
+  }
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .iris-picker .iris-slider.iris-strip {
+    max-width: 100%;
+  }
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container {
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  background: #fff;
+  padding: 10px 11px;
+  position: relative;
+  max-width: 233px;
+  display: none;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-widget-header,
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-widget-content {
+  background: transparent;
+  border: none;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .alpha-color-picker-wrap .ui-state-focus {
+  background: transparent;
+  border: none;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-slider {
+  position: relative;
+  z-index: 1;
+  height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  width: 88%;
+  width: calc(100% - 28px);
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-slider-handle, 
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-widget-content .ui-state-default {
+  color: #777;
+  background-color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  text-decoration: none;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid #aaa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-top: -2px;
+  top: 0;
+  height: 16px;
+  width: 16px;
+  cursor: ew-resize;
+  padding: 0;
+  line-height: 27px;
+  margin-left: -14px;
+}
+@media (min-width: 1500px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-slider-handle, 
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-widget-content .ui-state-default {
+    height: 26px;
+    width: 26px;
+  }
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .ui-slider-handle.show-opacity {
+  font-size: 12px;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .click-zone {
+  width: 14px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  left: 10px;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .max-click-zone {
+  right: 10px;
+  left: auto;
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .transparency {
+  height: 15px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url(img/background_transparancy.png);
+  background-repeat: no-repeat;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+  margin-top: -24px;
+}
+@media (min-width: 1500px) {
+  .gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .alpha-color-picker-container .transparency {
+    height: 24px;
+  }
+}
+.gutentor-group-field-control-wrap .customize-control-alpha-color .wp-picker-container .wp-picker-open ~ .wp-picker-holder .alpha-color-picker-container {
+  display: block;
+}
+
